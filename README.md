@@ -1,4 +1,4 @@
-# # CI/CD Pipeline Orchestrator
+# CI/CD Pipeline Orchestrator
 
 A mini CI/CD Pipeline Orchestrator built using Java, Spring Boot, and MySQL to simulate how modern software delivery pipelines work. This project was created to understand backend system design, multithreading, task scheduling, and workflow automation concepts commonly used in DevOps tools such as Jenkins and GitLab CI/CD.
 
@@ -97,7 +97,6 @@ While learning backend development, I wanted to understand what happens behind t
 
 ## Project Structure
 
-```text
 src/main/java/com/example/cicd
 │
 ├── controller
@@ -109,7 +108,7 @@ src/main/java/com/example/cicd
 ├── config
 ├── util
 └── model
-```
+
 
 ### Main Components
 
