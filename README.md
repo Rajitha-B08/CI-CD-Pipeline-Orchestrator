@@ -4,8 +4,6 @@ A mini CI/CD Pipeline Orchestrator built using Java, Spring Boot, and MySQL to s
 
 The application allows users to create and execute pipelines consisting of Build, Test, and Deploy stages, while tracking execution status, handling failures, and storing logs for monitoring and debugging.
 
----
-
 ## Why I Built This Project
 
 While learning backend development, I wanted to understand what happens behind the scenes when code is automatically built, tested, and deployed. Instead of using existing CI/CD tools, I decided to build a simplified orchestration system from scratch to explore concepts such as:
@@ -16,8 +14,6 @@ While learning backend development, I wanted to understand what happens behind t
 * Job scheduling and queue management
 * Database persistence
 * Failure handling and retry mechanisms
-
----
 
 ## Features
 
@@ -53,8 +49,6 @@ While learning backend development, I wanted to understand what happens behind t
 * Retrieve execution details
 * Monitor pipeline history
 
----
-
 ## Tech Stack
 
 ### Backend
@@ -80,8 +74,6 @@ While learning backend development, I wanted to understand what happens behind t
 * VS Code / IntelliJ IDEA
 * MySQL Workbench
 
----
-
 ## How It Works
 
 1. A user sends a request to start a pipeline.
@@ -92,8 +84,6 @@ While learning backend development, I wanted to understand what happens behind t
 6. If a stage fails, the retry mechanism attempts to run it again.
 7. Pipeline status and logs are continuously updated in the database.
 8. Users can monitor progress through REST APIs.
-
----
 
 ## Project Structure
 
@@ -132,8 +122,6 @@ src/main/java/com/example/cicd
 
 * Executes Build, Test, and Deploy stages.
 
----
-
 ## Sample API Endpoints
 
 ### Start Pipeline
@@ -159,8 +147,6 @@ Response:
 }
 ```
 
----
-
 ### Get Pipeline Status
 
 ```http
@@ -176,8 +162,6 @@ Response:
 }
 ```
 
----
-
 ## What I Learned
 
 Building this project helped me gain hands-on experience with:
@@ -191,8 +175,6 @@ Building this project helped me gain hands-on experience with:
 * Error handling and retry strategies
 * Designing scalable backend systems
 
----
-
 ## Future Improvements
 
 Some features I would like to add in future versions:
@@ -205,9 +187,6 @@ Some features I would like to add in future versions:
 * Docker integration
 * GitHub Actions or Jenkins integration
 
----
-
 ## Conclusion
 
 This project was a great opportunity to explore how CI/CD systems work internally while improving my backend development skills. It combines API development, concurrency, database management, and workflow orchestration into a single application and serves as a practical introduction to DevOps-inspired system design.
-
